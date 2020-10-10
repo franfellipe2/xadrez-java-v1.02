@@ -1,0 +1,9 @@
+# pecas: +rei, +torre, + bisbo, + cavalo, + peao + rainha
++ mover pecas
++ desfazer movimento
++ capturar peca
++ testar check 
++ testar check-mate 
++ Jogada especial "Rooque"
+>>>>> jogada especial "en passant"
+- promover peao
