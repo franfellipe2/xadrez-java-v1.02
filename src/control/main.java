@@ -14,9 +14,12 @@ import view.ChessView;
 public class main {
 
 	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
+		
 		Chess chess = new Chess();
 		PerformeChessMoveBuilder move = chess.createMove();
+		
 		ChessView view = new ChessView(chess);
 
 		while (!chess.isCheckMate()) {
